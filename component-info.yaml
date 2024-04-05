@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "ShopEase-ec2"
+  annotations:
+    github.com/project-slug: hirveakshata/aws-ec2-template #name of the terraform repo
+    backstage.io/techdocs-ref: dir:.
+  title: "ShopEase-ec2"
+  description: "Creating a EC2 instance for ShopEase app"
+spec:
+  type: Infrastructure service
+  owner: user:guest
+  lifecycle: "Production"
